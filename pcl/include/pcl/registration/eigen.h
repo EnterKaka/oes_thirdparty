@@ -45,5 +45,4 @@
 
 #include <Eigen/Core>
 #include <Eigen/Geometry>
-#include <unsupported/Eigen/Polynomials>
 #include <Eigen/Dense>
