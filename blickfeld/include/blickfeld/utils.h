@@ -8,8 +8,6 @@
 #ifndef BLICKFELD_UTILS_H
 #define BLICKFELD_UTILS_H
 
-#include "blickfeld/scanner-config.h"
-
 #ifdef HAVE_WINDOWS_H
 #  include <winsock2.h>
 #  include <ws2tcpip.h>
@@ -54,6 +52,8 @@
 
 #define _USE_MATH_DEFINES
 #include <cmath>
+
+#include "blickfeld/scanner-config.h"
 
 namespace blickfeld {
 
