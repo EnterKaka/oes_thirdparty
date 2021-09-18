@@ -31,9 +31,6 @@
 #endif
 #endif
 
-#include "bson-config.h"
-#include "bson-macros.h"
-
 
 #ifdef BSON_OS_WIN32
 #if defined(_WIN32_WINNT) && (_WIN32_WINNT < 0x0600)
@@ -63,10 +60,6 @@
 #include <sys/time.h>
 #endif
 
-
-#include "bson-macros.h"
-
-
 #include <errno.h>
 #include <ctype.h>
 #include <limits.h>
@@ -78,6 +71,9 @@
 #include <string.h>
 #include <time.h>
 #include <stdint.h>
+
+#include "bson-config.h"
+#include "bson-macros.h"
 
 
 BSON_BEGIN_DECLS
