@@ -75,7 +75,6 @@
 #include "bson-config.h"
 #include "bson-macros.h"
 
-
 BSON_BEGIN_DECLS
 
 #if !defined(_MSC_VER) || (_MSC_VER >= 1800)
